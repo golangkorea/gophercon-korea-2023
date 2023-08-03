@@ -1,3 +1,7 @@
+import LOGO_DAANGN from "/public/images/sponsors/gold/logo_daangn_icon.png";
+import LOGO_MEGAZON from "/public/images/sponsors/gold/logo_megazon_icon.png";
+import LOGO_HYUNDAI from "/public/images/sponsors/platinum/logo_hyundai_icon.png";
+
 export interface Speaker {
   name: string;
   company: string;
@@ -171,7 +175,7 @@ export const SESSIONS: Record<"ko" | "en", Session[]> = {
         description:
           "- 당근마켓 채팅팀 Engineering Lead \n\
         - AWS Serverless Hero",
-        profileImage: "",
+        profileImage: LOGO_DAANGN.src,
       },
       level: Levels.None,
     },
@@ -280,7 +284,7 @@ export const SESSIONS: Record<"ko" | "en", Session[]> = {
           "클라우드 플랫폼 및 인프라 자동화 솔루션 개발 \n\
           . 현대자동차 카클라우드개발실 근무 (2023~) \n\
           . 삼성전자 클라우드개발그룹 근무 (2015~2023)",
-        profileImage: "",
+        profileImage: LOGO_HYUNDAI.src,
       },
       level: Levels.None,
     },
@@ -523,7 +527,7 @@ export const SESSIONS: Record<"ko" | "en", Session[]> = {
           그 외에 페이스북 ‘IT 인프라 엔지니어 그룹’의 운영진을 맡고 있으며, 오픈 소스 컨트리뷰터로도 활동하고 있습니다. \n \
           그 외에 가지고 있는 지식을 공유하는 것을 좋아하여, 인프런/유데미에서 앤서블 및 쿠버네티스에 관한 강의를 기재하고 있으며, 또한 아는 지식을 문서로 남겨야 한다고 생각하기에 책( 『시스템/네트워크 관리자를 위한 파이썬 실무 프로그래밍』, 『우아하게 앤서블』), 『컨테이너 인프라 환경 구축을 위한 쿠버네티스/도커』(길벗) 이 있고, IT 잡지에 기고문을 쓰는 활동도 함께하고 있습니다. \n \
           CNCF 앰버서더 및 네이버 클라우드 앰버서더로서도 쿠버네티스 생태계가 더 활발하게 퍼질 수 있도록 기여하고 있습니다.",
-        profileImage: "",
+        profileImage: LOGO_MEGAZON.src,
       },
       level: Levels.None,
     },

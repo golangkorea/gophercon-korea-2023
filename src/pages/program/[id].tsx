@@ -219,6 +219,7 @@ const ProgramCardSpeakerCircle = styled.div<ProgramCardSpeakerCircleStyledProps>
     backgroundImage: `url('${url ? url : Gopher.src}')`,
     backgroundImageRepeat: "no-repeat",
     backgroundSize: "cover",
+    backgroundColor: "white",
   }),
 );
 const ProgramCardTitle = styled.p({
